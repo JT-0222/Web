@@ -1,0 +1,318 @@
+/* 全局样式 */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #f4f4f4;
+    -webkit-user-select: none;
+    /* Chrome/Safari/Edge */
+    -moz-user-select: none;
+    /* Firefox */
+    -ms-user-select: none;
+    /* IE 10+ */
+    user-select: none;
+    /* 标准语法 */
+
+    -webkit-user-drag: none;
+    /* 禁止图片拖动（仅WebKit浏览器） */
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* 页眉样式 */
+header {
+    background: #647ffe;
+    color: #ffffff;
+    padding: 20px 0;
+    text-align: center;
+    height: 150px;
+}
+
+.header-img {
+    height: 40px;
+}
+
+.header-title {
+    margin: 0;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    font-size: 36px;
+    color: black;
+}
+
+/* 导航样式 */
+.header-nav {
+    padding-bottom: -5px;
+}
+
+nav ul {
+    padding: 0;
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav a {
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav a:hover {
+    color: #e8491d;
+}
+
+/* 主体内容样式 */
+main {
+    width: 80%;
+    margin: 20px auto;
+}
+
+.intro {
+    background: #ffffff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.sy_1 {
+    background: #f3f3f3;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.sy_1_title {
+    margin-top: 0px;
+}
+
+.sy_1_info {
+    font-size: 18px;
+    font-family: '宋体';
+}
+
+.sy_name {
+    font-size: 22px;
+    font-family: '仿宋';
+    color: #647ffe;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+.sy_2_info {
+    font-size: 18px;
+    font-family: '宋体';
+    margin-top: 0px;
+}
+
+.research {
+    background: #ffffff;
+    padding: 20px;
+    margin-top: 30px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.sy_3_info {
+    font-size: 18px;
+    font-family: 'Times New Roman';
+    margin-bottom: 10px;
+}
+
+.sec_two {
+    display: flex;
+    /* 启用 Flexbox */
+    justify-content: space-between;
+    /* 均匀分布左右间距 */
+    gap: 20px;
+    /* 可选：设置两个 section 之间的间隙 */
+}
+
+.sec_two_left {
+    flex: 1;
+    /* 等分剩余空间 */
+    min-width: 0;
+    /* 防止内容溢出 */
+    padding: 20px;
+    background: #ffffff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.sec_two_right {
+    flex: 1;
+    /* 等分剩余空间 */
+    min-width: 0;
+    /* 防止内容溢出 */
+    background: #ffffff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.sy_4_info {
+    font-size: 18px;
+    font-family: '宋体';
+}
+
+.sy_2_title {
+    font-size: 22px;
+    font-family: '仿宋';
+    color: black;
+    font-weight: bold;
+    text-align: center;
+}
+
+.sy_5_info {
+    font-size: 18px;
+    font-family: '宋体';
+    margin-bottom: 10px;
+}
+
+.image-kyhj1 {
+    display: flex;
+    /* 启用 Flexbox */
+    justify-content: space-between;
+    /* 均匀分布 */
+    gap: 30px;
+    /* 图片间距 */
+    padding: 20px;
+}
+
+.image-item-kyhj {
+    flex: 1;
+    /* 等分宽度 */
+    text-align: center;
+    /* 文字居中 */
+    min-width: 0;
+    /* 防止内容溢出 */
+}
+
+.image-item-kyhj img {
+    width: 100%;
+    /* 图片宽度填满容器 */
+    height: 335.33px;
+    /* 高度自适应 */
+    border-radius: 8px;
+    /* 可选：圆角 */
+    object-fit: cover;
+    /* 可选：裁剪适应 */
+}
+
+.image-kyhj2 {
+    display: flex;
+    /* 启用 Flexbox */
+    justify-content: space-between;
+    /* 均匀分布 */
+    gap: 100px;
+    /* 图片间距 */
+    padding: 40px;
+}
+
+.image-item-kyhj-1 {
+    flex: 1;
+    /* 等分宽度 */
+    text-align: center;
+    /* 文字居中 */
+    min-width: 0;
+    /* 防止内容溢出 */
+}
+
+.image-item-kyhj-1 img {
+    width: 100%;
+    /* 图片宽度填满容器 */
+    height: 318.56px;
+    /* 高度自适应 */
+    border-radius: 8px;
+    /* 可选：圆角 */
+    object-fit: cover;
+    /* 可选：裁剪适应 */
+}
+
+.image-caption-kyhj {
+    margin-top: 5px;
+    /* 描述文字上边距 */
+    font-size: 16px;
+    font-family: '宋体';
+}
+
+.image-item-kyhj-2 {
+    flex: 1;
+    /* 等分宽度 */
+    text-align: center;
+    /* 文字居中 */
+    min-width: 0;
+    /* 防止内容溢出 */
+}
+
+.image-item-kyhj-2 img {
+    width: 100%;
+    /* 图片宽度填满容器 */
+    height: 259px;
+    /* 高度自适应 */
+    border-radius: 8px;
+    /* 可选：圆角 */
+    object-fit: cover;
+    /* 可选：裁剪适应 */
+}
+
+.image-item-kyhj-3 {
+    flex: 1;
+    /* 等分宽度 */
+    text-align: center;
+    /* 文字居中 */
+    min-width: 0;
+    /* 防止内容溢出 */
+}
+
+.image-item-kyhj-3 img {
+    width: 345.55px;
+    /* 图片宽度填满容器 */
+    height: 259px;
+    /* 高度自适应 */
+    border-radius: 8px;
+    /* 可选：圆角 */
+    object-fit: cover;
+    /* 可选：裁剪适应 */
+}
+
+.call {
+    font-size: 18px;
+    font-family: '仿宋';
+    font-weight: bold;
+}
+
+/* 页脚样式 */
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #647ffe;
+    color: #ffffff;
+    /* position: fixed; */
+    bottom: 0;
+    width: 100%;
+}
+
+/* 响应式设计 */
+@media (max-width: 768px) {
+    .features {
+        flex-direction: column;
+    }
+
+    main {
+        width: 90%;
+    }
+}
